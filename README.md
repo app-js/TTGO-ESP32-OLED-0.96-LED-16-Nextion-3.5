@@ -3,7 +3,7 @@ Playground for
 ## TTGO WiFi & Bluetooth Battery ESP32 0.96 inch OLED development tool  
 ## and Nextion Enhanced NX4832K035 - Generic 3.5'' HMI Touch Display
 
-TTGO Features:
+#### TTGO Features:
 
 * When you do some ESP32 projects you must hate to add a power bank to provide the power   
 * This tiny board could solve such problems  
@@ -22,7 +22,7 @@ TTGO Features:
 ![TTGO pic](img/ttgo_p0.jpg)
 ![pinout](img/ttgo_pinout.jpg)
 
-Nextion Features:
+#### Nextion Features:
 
 * Nextion Enhanced NX4832K035 is a 3.5'' HMI TFT display,  
 * with 32MB Flash data storage space,  
@@ -32,3 +32,11 @@ Nextion Features:
 
 ![Nextion pic0](img/nex_p0.jpg)
 ![Nextion pic1](img/nex_p1.jpg)
+
+#### Connecting TTGO ESP32 and Nextion:
+
+* TTGO 5V <--> Nextion 5V
+* TTGO GND <--> Nextion GND
+* TTGO 21 <--> Nextion TX
+* TTGO 22 <--> Nextion RX
+
