@@ -30,3 +30,5 @@ Nextion Features:
 * 8192 byte RAM,  
 * GPIO support, to control external devices.  
 
+![Nextion pic0](img/nex_p0.jpg)
+![Nextion pic1](img/nex_p1.jpg)
