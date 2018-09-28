@@ -35,10 +35,12 @@ Playground for
 
 #### Connecting TTGO ESP32 and Nextion:
 
-* TTGO 5V <--> Nextion 5V
-* TTGO GND <--> Nextion GND
-* TTGO 21 <--> Nextion TX
-* TTGO 22 <--> Nextion RX
+TTGO | Nextion
+------------ | -------------
+5V | 5V
+GND | GND
+21 | TX
+22 | RX
 
 #### Install and build:
 
