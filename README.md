@@ -1,7 +1,7 @@
 Playground for
 
 ## TTGO WiFi & Bluetooth Battery ESP32 0.96 inch OLED development tool  
-## and Nextion Enhanced NX4832K035 - Generic 3.5'' HMI Touch Display
+## and Nextion Enhanced NX4832K035_11 - Generic 3.5'' HMI Touch Display
 
 #### TTGO Features:
 
@@ -40,3 +40,7 @@ Playground for
 * TTGO 21 <--> Nextion TX
 * TTGO 22 <--> Nextion RX
 
+#### Install and build:
+
+* You must use / install platformio.
+* Copy ttgo-oled1306-led16-battery.json and pins_arduino.h to their directories or change [env:ttgo-oled1306-led16-battery] in platformio.ini to your boardname. See "Board and Pin Definitions for platformio"
