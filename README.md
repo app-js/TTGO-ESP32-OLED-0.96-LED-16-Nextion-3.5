@@ -19,6 +19,7 @@ TTGO Features:
 * Over discharge protection   
 * Full ESP32 pins break out 
 
+![pic1](img/ttgo_p1.jpg)
 ![pinout](img/ttgo_pinout.jpg)
 
 Nextion Features:
