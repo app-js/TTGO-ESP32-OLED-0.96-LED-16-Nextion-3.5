@@ -1,0 +1,45 @@
+{
+  "build": {
+    "core": "esp32",
+    "extra_flags": "-DARDUINO_TTGO_OLED1306_BATTERY_LED16",
+    "f_cpu": "240000000L",
+    "f_flash": "40000000L",
+    "flash_mode": "dio",
+    "ldscript": "esp32_out.ld",
+    "mcu": "esp32",
+    "variant": "ttgo-oled1306-led16-battery"
+  },
+  "connectivity": [
+    "wifi",
+    "bluetooth",
+    "ethernet",
+    "can"
+  ],
+  "debug": {
+    "openocd_board": "esp-wroom-32.cfg"
+  },
+  "frameworks": [
+    "arduino",
+    "espidf"
+  ],
+  "name": "TTGO OLED1306 BATTERY LED16",
+  "upload": {
+    "flash_size": "4MB",
+    "maximum_ram_size": 327680,
+    "maximum_size": 4194304,
+    "protocol": "esptool",
+    "protocols": [
+      "esptool",
+      "esp-prog",
+      "olimex-arm-usb-tiny-h",
+      "olimex-arm-usb-ocd-h",
+      "olimex-arm-usb-ocd",
+      "olimex-jtag-tiny",
+      "minimodule"
+    ],
+    "require_upload_port": true,
+    "speed": 921600
+  },
+  "url": "https://www.google.com.ua/search?q=TTGO+OLED+BATTERY",
+  "vendor": "TTGO"
+}
