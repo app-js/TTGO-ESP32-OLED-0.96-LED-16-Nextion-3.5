@@ -5,3 +5,4 @@
 .vscode/launch.json
 .pioenvs
 .piolibdeps
+.DS_Store
