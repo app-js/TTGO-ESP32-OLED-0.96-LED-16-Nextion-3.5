@@ -46,3 +46,6 @@ GND | GND
 
 * You must use / install platformio.
 * Copy ttgo-oled1306-led16-battery.json and pins_arduino.h to their directories or change [env:ttgo-oled1306-led16-battery] in platformio.ini to your boardname. See "Board and Pin Definitions for platformio"
+* You need the nextion library from this package. The most important changes are in nexconfig.h, nexhardware.h and nexhardware.cpp.
+
+![In action](img/inaction.jpg)
